@@ -3,6 +3,13 @@ body{
     background-image: url(./img/6766bb2c17a68a11fcb2347ebaae0d55.jpg);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+ h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
     .container{
 width: 800px;
 min-height: 800px;
@@ -11,8 +18,33 @@ margin: 0 auto;
 background: gray;
 
 }
-.header{
-    display: flex;
+	
+	.header{
+		display: flex;
+		height: 150px;
+		justify-content:center;
+		align-items:center;
+		font-size:30px;
+	    background: url(./img/puteshestvennik.orig.jpg) no-repeat center center;
+		color:white;
+	}
+
+	.content-wrapper{
+		display: flex;
+		margin-left: 7px;
+	}
+
+	.content{
+		width: 70%;
+		padding: 10px;
+	}
+	
+.sidebar{
+	border:3px solid white;
+	width: 30%;
+	padding:7px;
+	
+
 }
-    }
+	
     
